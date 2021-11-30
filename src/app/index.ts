@@ -1,5 +1,5 @@
 import '../style/main.scss'
 
-const test: string = 'Ivan';
+const test: string = 'апваповап';
 
 console.log(test);

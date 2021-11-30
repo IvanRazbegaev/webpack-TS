@@ -11,6 +11,7 @@ module.exports = (env) => {
             filename: "app.js",
             clean: true,
         },
+        devtool: devMode ? 'source-map' : false,
         resolve: {
             extensions: ['.ts', '.tsx', '.js'],
         },
